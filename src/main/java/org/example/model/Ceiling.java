@@ -17,6 +17,6 @@ public class Ceiling {
         return color;
     }
     public void create(){
-        System.out.println("Ceiling has been built");
+        System.out.println("Ceiling has been built.");
     }
 }

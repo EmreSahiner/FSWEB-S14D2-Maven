@@ -9,6 +9,6 @@ public class Wall {
         return direction;
     }
     public void create(){
-        System.out.println("Wall has been built");
+        System.out.println("Wall has been built.");
     }
 }

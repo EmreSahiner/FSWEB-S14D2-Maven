@@ -2,14 +2,18 @@ package org.example.model;
 
 public class Bed {
     private String style;
-    private int pillows, height, sheets, quilt;
+    private int pillows, height, sheets, quilts;
 
-    public Bed(String style, int pillows, int height, int sheets, int quilt) {
+    public Bed(String style, int pillows, int height, int sheets, int quilts) {
         this.style = style;
         this.pillows = pillows;
         this.height = height;
         this.sheets = sheets;
-        this.quilt = quilt;
+        this.quilts = quilts;
+    }
+
+    public String getStyle() {
+        return style;
     }
 
     public int getPillows() {
@@ -24,8 +28,8 @@ public class Bed {
         return sheets;
     }
 
-    public int getQuilt() {
-        return quilt;
+    public int getQuilts() {
+        return quilts;
     }
 
     public void make() {

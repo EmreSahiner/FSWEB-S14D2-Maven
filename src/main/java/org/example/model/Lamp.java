@@ -3,18 +3,19 @@ package org.example.model;
 import org.example.model.enums.LampType;
 
 public class Lamp {
-    private LampType lampType;
+    private LampType style;
     private boolean battery;
     private int globRating;
 
-    public Lamp(LampType lampType, boolean battery, int globRating) {
-        this.lampType = lampType;
+    public Lamp(LampType style, boolean battery, int globRating) {
+        this.style = style;
         this.battery = battery;
         this.globRating = globRating;
     }
 
-    public LampType getLampType() {
-        return lampType;
+
+    public LampType getStyle() {
+        return style;
     }
 
     public boolean isBattery() {
